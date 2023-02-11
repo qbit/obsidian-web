@@ -4,7 +4,7 @@
   "description": "Connect your browser with your notes in Obsidian",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --config webpack/webpack.dev.js --watch",
+    "dev": "webpack --config webpack/webpack.dev.js",
     "build": "webpack --config webpack/webpack.prod.js",
     "build-icons-dev": "./scripts/build_icons.dev.sh",
     "build-icons": "./scripts/build_icons.sh",
