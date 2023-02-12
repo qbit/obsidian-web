@@ -5,14 +5,19 @@
   "description": "Connect your browser with your notes in Obsidian",
   "version": "2.2.3",
 
-  "options_page": "options.html",
+  "options_ui": {
+    "page": "options.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "something@somewhere.place",
+      "strict_min_version": "68.0"
+    }
+  },
 
   "background": {
     "service_worker": "js/background.js"
-  },
-
-  "sandbox": {
-    "pages": ["handlebars.html"]
   },
 
   "icons": {
