@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 export ARCHIVE="obsidian-$(jq -r '.version' package.json).chrome.zip"
 npm run build-icons
 npm run build
